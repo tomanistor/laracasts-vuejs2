@@ -9,13 +9,7 @@ Vue.component ('modal', {
       </div>
       <button class="modal-close is-large" aria-label="close" @click="$emit('close')">X</button>
     </div>
-  `,
-
-  data() {
-    return {
-
-    };
-  }
+  `
 })
 
 new Vue({
